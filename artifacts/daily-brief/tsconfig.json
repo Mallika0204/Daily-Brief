@@ -1,0 +1,18 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["src/components/ui", "src/pages/not-found.tsx"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {"@/*": ["src/*"]}
+  }
+}
