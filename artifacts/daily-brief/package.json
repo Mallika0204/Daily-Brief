@@ -7,9 +7,11 @@
     "dev": "vite --config vite.config.ts --host 0.0.0.0",
     "build": "vite build",
     "start": "vite preview --config vite.config.ts --host 0.0.0.0",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --test server/*.test.mjs"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.11.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
