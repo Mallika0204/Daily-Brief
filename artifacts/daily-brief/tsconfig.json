@@ -1,6 +1,5 @@
 {
-  "include": ["src/**/*"],
-  "exclude": ["src/components/ui", "src/pages/not-found.tsx"],
+  "include": ["src/App.tsx", "src/main.tsx"],
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",

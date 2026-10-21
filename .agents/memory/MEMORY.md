@@ -1,0 +1,1 @@
+- [pnpm manager version in Replit](pnpm-manager-version.md) — mismatched root pnpm pins can trigger a failing self-install before startup.
